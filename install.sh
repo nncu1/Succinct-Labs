@@ -56,4 +56,4 @@ else
 fi
 
 echo "Process completed successfully."
-echo "Description: Có làm mới có ăn"
+echo "Des: Có làm mới có ăn"
