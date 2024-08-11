@@ -3,17 +3,17 @@
 echo "Starting setup and proof process..."
 
 if [ ! -f "loader.sh" ]; then
-    echo "Showing HCA logo..."
-    wget -O loader.sh https://raw.githubusercontent.com/DiscoverMyself/Ramanode-Guides/main/loader.sh
+    echo "Showing logo..."
+    wget -O loader.sh https://raw.githubusercontent.com/
     chmod +x loader.sh
 else
-    echo "loader.sh from HCA already exists. Skipping download."
+    echo "loader.sh  Skipping download."
 fi
 
 ./loader.sh
 
 echo "Installing Git..."
-sudo apt update && sudo apt install -y git-all
+sudo apt update && sudo apt install -y git-all build-essential gcc cargo pkg-config libssl-dev
 git --version
 
 echo "Checking if Rust is installed..."
