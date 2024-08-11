@@ -56,4 +56,3 @@ else
 fi
 
 echo "Process completed successfully."
-echo "Des: bú bú bú bú"
